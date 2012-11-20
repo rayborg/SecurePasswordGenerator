@@ -2,6 +2,7 @@ SecurePasswordGenerator
 =======================
 
 First time use:
+
 1. Create a "New Password Profile" 
 2. Select Security Questions 
 3. Answer your security questions
