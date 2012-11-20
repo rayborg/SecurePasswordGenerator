@@ -90,11 +90,14 @@ Partial Class SecurePasswordGenerator
         Me.CopyPasswdFromPassProfileButton = New System.Windows.Forms.Button
         Me.GeneratePwdPassProfileButton = New System.Windows.Forms.Button
         Me.TabControl1 = New System.Windows.Forms.TabControl
+        Me.TabPage3 = New System.Windows.Forms.TabPage
+        Me.TextBox6 = New System.Windows.Forms.TextBox
         CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label9
@@ -513,9 +516,22 @@ Partial Class SecurePasswordGenerator
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage3)
         resources.ApplyResources(Me.TabControl1, "TabControl1")
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Controls.Add(Me.TextBox6)
+        resources.ApplyResources(Me.TabPage3, "TabPage3")
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'TextBox6
+        '
+        resources.ApplyResources(Me.TextBox6, "TextBox6")
+        Me.TextBox6.Name = "TextBox6"
         '
         'SecurePasswordGenerator
         '
@@ -534,6 +550,8 @@ Partial Class SecurePasswordGenerator
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
+        Me.TabPage3.ResumeLayout(False)
+        Me.TabPage3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -604,5 +622,7 @@ Partial Class SecurePasswordGenerator
     Friend WithEvents CopyPasswdFromPassProfileButton As System.Windows.Forms.Button
     Friend WithEvents GeneratePwdPassProfileButton As System.Windows.Forms.Button
     Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
+    Friend WithEvents TabPage3 As System.Windows.Forms.TabPage
+    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
 
 End Class

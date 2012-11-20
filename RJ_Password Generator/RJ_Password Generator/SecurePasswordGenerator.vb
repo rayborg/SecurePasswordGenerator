@@ -912,5 +912,4 @@ Public Class SecurePasswordGenerator
 
 
     End Sub
-
 End Class

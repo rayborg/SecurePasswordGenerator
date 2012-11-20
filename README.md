@@ -6,12 +6,12 @@ First time use:
 1. Create a "New Password Profile" 
 2. Select Security Questions 
 3. Answer your security questions
-4. Copy Password
+4. Generate and Copy Password
 
 Once at least one password profile is created select it from password profiles.
 
 1. Answer pre-user-selected questions
-2. Copy password
+2. Generate and Copy password
 
 Note:
 This program creates a folder in "C:\" called SPG which stores settings but the password nor the password hash are stored. 
